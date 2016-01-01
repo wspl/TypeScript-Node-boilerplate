@@ -1,0 +1,32 @@
+{
+  "name": "typescript-node-boilerplate",
+  "version": "0.1.0",
+  "description": "TypeScript project template for Node. Based on VSCode, Node v5.3.0, TypeScript (ES2016), Gulp.",
+  "main": "out/src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wspl/TypeScript-Node-boilerplate.git"
+  },
+  "author": "Plutonist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wspl/TypeScript-Node-boilerplate/issues"
+  },
+  "homepage": "https://github.com/wspl/TypeScript-Node-boilerplate#readme",
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.3.16",
+    "babel-plugin-transform-es2015-spread": "^6.3.14",
+    "babel-preset-stage-3": "^6.3.13",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.10.0",
+    "typescript": "^1.7.5"
+  }
+}
